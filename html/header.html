@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Тестовое задание</title>
+		
+			<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+			<link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
+		
+			<script type="text/javascript" src="js/jquery.js"></script>
+			<script type="text/javascript">
+			
+				function submitForm() {
+				
+					if ( $('input[name="name"]').val() == '' ) {
+						
+						$('input[name="name"]').parent().next().html('Укажите ваше имя');
+						alert('Укажите ваше имя');
+					}
+					
+					if ( $('textarea[name="content"]').val() == '' ) {
+						
+						$('textarea[name="content"]').parent().next().html('Напишите комментарий!');
+						alert('Напишите комментарий!');
+					}
+					
+					
+					return false;
+				}
+			
+			</script>
+	</head>
+	<body>
+		<div class="header">
+			<img class="logo" src="css/images/logo.jpg" width="200">
+			
+			{{menu}}
+		</div>
+		<div class="header-stripe"></div>
+		<div class="wrapper">

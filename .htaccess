@@ -1,0 +1,17 @@
+
+
+Options +Indexes
+Options +FollowSymLinks
+
+
+	RewriteEngine On
+
+
+	RewriteRule ^(.*)\.(jpg|jpeg|gif|png|ico|flv|avi|mov|xml|swf)$ $1.$2 [L,QSA]
+	
+	RewriteRule ^js/(.*)$ js/$1 [L,QSA]
+	RewriteRule ^css/(.*)$ css/$1 [L,QSA]
+
+
+
+

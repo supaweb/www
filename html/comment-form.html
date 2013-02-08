@@ -1,0 +1,29 @@
+
+<h3>Добавить комментарий:</h3>
+<table class="comment-form">
+	<form method="post" action="" onsubmit="submitForm();">
+		<tr>
+			<td>
+				Ваше имя:<br/>
+				<input type="text" name="name" value="{{name}}" />
+				<input type="hidden" name="post" value="{{post}}" />
+			</td>
+			<td class="error">{{errorName}}</td>
+		</tr>
+		<tr>
+			<td>
+				Комментарий:<br/>
+				<textarea name="content"></textarea>
+			</td>
+			<td class="error">{{errorContent}}</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" class="submit" value="Отправить">
+			</td>
+			<td>
+				
+			</td>
+		</tr>
+	</form>
+</table>

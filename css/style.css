@@ -1,0 +1,44 @@
+/* 
+    Document   : style
+    Created on : 23.05.2012, 19:44:25
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { margin: 0; padding: 0; font: 13px/16px Tahoma, sans-serif; color: #333; background-color: #fff; }
+h1 { font-weight: normal; }
+h2 { font-weight: normal; }
+.logo { border: 0; float: left; }
+.header { width: 900px; clear: both; margin: 0 auto; }
+ul.menu { float: right; font-size: 15px; margin-top: 40px; padding: 0; }
+ul.menu li { list-style: none; font-size: 15px; padding-top: 3px; padding-bottom: 3px; padding-left: 10px; padding-right: 10px; }
+ul.menu li.selected { background: #333; }
+ul.menu li.selected a { text-decoration: none; color: #fff; cursor: default; }
+ul.menu li:hover { background: #eee; }
+ul.menu li.selected:hover { background: #333; }
+
+
+.header-stripe { width: 900px; clear: both; margin: 0 auto; height: 20px; background: #333; }
+.wrapper { width: 900px; clear: both; margin: 0 auto; padding-top: 20px; }
+
+.content {}
+.content-date { float: right; font-size: 10px; }
+
+.comments-ul { padding: 0; }
+li.comment { background: #eee; padding: 3px 10px; list-style: none; margin: 5px 10px; }
+.comments-content {}
+.comments-name { font-style: italic; font: 16px/16px Tahoma, sans-serif; margin-top: 5px; }
+.comments-date { float: right; font-size: 10px; }
+
+h3 { width: 500px; clear: both; margin: 20px auto; }
+.comment-form { width: 700px; clear: both; margin: 10px auto; margin-bottom: 20px; }
+.comment-form input { width: 100%; }
+.comment-form textarea { width: 100%; height: 100px; }
+.comment-form input.submit { width: 130px; float: right; }
+
+.footer { width: 900px; clear: both; margin: 0px auto; color: #ccc; background: #333; font-size: 11px; height: 100px; text-shadow: 0px -1px 1px #000;}
+.footer-left { float: left; margin-top: 80px; margin-left: 15px; }
+.footer-right { float: right; margin-top: 80px; margin-right: 15px; }
+
+
+td.error { width: 200px; color: #f00; font-weight: bold; padding-left: 20px; }
